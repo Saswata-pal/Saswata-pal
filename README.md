@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @Saswata-pal
 - 👀 I’m interested in ML and DL
-- 🌱 I’m currently learning dsa
+- 🌱 I’m currently exploring android app dev
 - 💞️ I’m looking to collaborate on github
 - 📫 How to reach me ?
 - 😄 Pronouns: ....
