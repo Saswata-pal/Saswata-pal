@@ -4,7 +4,7 @@
 - 💞️ Looking to collaborate on **open-source AI & mobile app projects**  
 - 📫 Reach me via **[LinkedIn](https://www.linkedin.com/in/saswata-pal7)** | **[GitHub](https://github.com/Saswata-pal)**  
 - 😄 Pronouns: **He/Him**  
-- ⚡ Fun fact: **I love turning ideas into real-world AI solutions!**  
+- ⚡ Fun fact: **Everything is MATHEMATICS**  
 
 <!---
 Saswata-pal/Saswata-pal is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
