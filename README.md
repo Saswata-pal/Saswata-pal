@@ -28,8 +28,9 @@
 #### 🏥 **Multi-Agent Medical Report Analyzer**
 > Patient-friendly AI system using **CrewAI, LangChain, and Gemini API** that converts lab reports into simple summaries and visual graphs with multilingual support.
 
-#### 🧑‍💼 **AI-Driven Job Screening System with Smart Prompt Search**
-> Streamlit + Hugging Face based ATS automation tool that ranks candidates and enables recruiters to query candidates using natural language prompts.  
+#### 📱 **SkinDiseaseCheck – Intelligent Android App for Dermatological Diagnosis**
+> Built with **Java, TensorFlow Lite, and Android SDK**, this on-device AI app diagnoses skin conditions from gallery images.  
+> Works **offline**, delivers instant results, and integrates the **Android Photo Picker** for smooth user experience.
 
 ---
 
@@ -51,10 +52,11 @@
 
 ---
 
-### 🏆 Other Achievements  
-- 🥇 Participated in **10+ Hackathons** & **2+ Ideathons**, winning recognitions for innovative AI & IoT projects  
-- 🧾 **2 Research Papers Published**, one selected for **ISDSI Global Conference**  
-- 🌍 Built IoT-based **Air Quality Monitoring System** & **Piezoelectric Power Generation Prototype**
+### 💡 Innovation & Research Highlights  
+- 🥇 Participated in **10+ Hackathons** & **2+ Ideathons**, showcasing innovative AI and automation-based solutions.  
+- 🧾 **Authored 2 research papers**, one selected for presentation at the **ISDSI Global Conference**.  
+- 🤝 Collaborated on diverse AI projects spanning **healthcare, education, and career analytics**.  
+- ⚙️ Developed multiple end-to-end systems using **LLMs, Multi-Agent AI, and Android integration**.  
 
 ---
 
