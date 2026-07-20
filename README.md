@@ -46,7 +46,7 @@
 **Languages:** Python | Java | C++ | R | JavaScript | XML  
 **AI & ML:** TensorFlow | PyTorch | Hugging Face | OpenCV | YOLOv5 | Gemini API | TFLite | RAG  
 **Frameworks:** LangChain | CrewAI | Streamlit | Next.js | Node.js | Firebase  
-**Mobile Development:** Android Studio | Kotlin | TensorFlow Lite Integration | XML UI  
+**Mobile Development:** Android Studio | Java | Kotlin | TensorFlow Lite Integration | XML UI  
 **Automation Tools:** Zapier | n8n | Ollama | Prompt Engineering  
 **Other Tools:** Git | GitHub | Google Cloud | Prisma | Matplotlib  
 
