@@ -8,6 +8,18 @@
   <a href="https://github.com/Saswata-pal"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
 </p>
 
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"/>
+  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white"/>
+  <img src="https://img.shields.io/badge/YOLOv8-111111?style=flat-square&logo=ultralytics&logoColor=white"/>
+  <img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black"/>
+  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white"/>
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
+  <img src="https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=googlecloud&logoColor=white"/>
+</p>
+
 </div>
 
 <br/>
@@ -39,24 +51,24 @@ Accessibility-first education platform built with **Gemini API, Next.js, TypeScr
 </td>
 <td width="50%" valign="top">
 
-### 💼 CareerSathi
-**AI-powered career guidance system**
+### 🎯 HireWise
+**AI-powered candidate ranking system**
 
-Multi-stage career advisor built with **Vertex AI, Firebase, Next.js**. Delivers career recommendations, personalized roadmaps, and motivation-based chat support.
+CPU-only pipeline built for a strict-time-budget hackathon with zero internet access at ranking time. Replaces per-candidate LLM calls with a fixed capability taxonomy scored via sentence-embedding cosine similarity, a single pre-clock LLM call for JD understanding, and FAISS-based multi-signal retrieval.
 
-`Vertex AI` `Firebase` `Next.js`
+`FAISS` `Sentence Embeddings` `LLM Pipeline Design`
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### 🏥 Medical Report Analyzer
-**Multi-agent patient-friendly report summarizer**
+### 🚨 SafeDrive
+**Real-time accident detection & alert system**
 
-Converts complex lab reports into plain-language summaries and visual graphs, with multilingual support, using **CrewAI, LangChain, Gemini API**.
+Trained **YOLOv8** on a custom-annotated accident dataset (mAP@0.5 of 0.76), tested on live CCTV footage. Full alert pipeline: snapshot capture (OpenCV) → Cloudinary upload → Twilio SMS with location ID sent to police and hospital contacts.
 
-`CrewAI` `LangChain` `Gemini API`
+`YOLOv8` `OpenCV` `Cloudinary` `Twilio`
 
 </td>
 <td width="50%" valign="top">
@@ -64,9 +76,9 @@ Converts complex lab reports into plain-language summaries and visual graphs, wi
 ### 📱 SkinDiseaseCheck
 **On-device dermatological diagnosis app**
 
-Android app built with **Java, TensorFlow Lite**, diagnosing skin conditions from gallery images — fully offline, instant results, with native Photo Picker integration.
+Two-stage classifier — binary Disease/No-Disease gate followed by a 9-class disease model — built to cut false positives on healthy-skin images. **MobileNetV2**, quantized to **TFLite**, integrated into Android for fully offline inference at 84% validation accuracy.
 
-`Java` `TensorFlow Lite` `Android SDK`
+`MobileNetV2` `TensorFlow Lite` `Android SDK`
 
 </td>
 </tr>
