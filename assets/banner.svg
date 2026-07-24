@@ -54,17 +54,17 @@
   <!-- orbiting tech pills -->
   <g font-family="'JetBrains Mono', monospace" font-size="13" fill="#e6edf3">
     <g><rect x="-38" y="-12" width="76" height="24" rx="12" fill="#111a2e" stroke="#58A6FF" stroke-opacity="0.5"/><text x="0" y="5" text-anchor="middle">Python</text>
-      <animateMotion dur="18s" begin="-0s" repeatCount="indefinite"><mpath xlink:href="#orbitPath"/></animateMotion></g>
+      <animateMotion dur="18s" begin="-0s" repeatCount="indefinite"><mpath href="#orbitPath"/></animateMotion></g>
     <g><rect x="-52" y="-12" width="104" height="24" rx="12" fill="#111a2e" stroke="#b57cff" stroke-opacity="0.5"/><text x="0" y="5" text-anchor="middle">TensorFlow</text>
-      <animateMotion dur="18s" begin="-3s" repeatCount="indefinite"><mpath xlink:href="#orbitPath"/></animateMotion></g>
+      <animateMotion dur="18s" begin="-3s" repeatCount="indefinite"><mpath href="#orbitPath"/></animateMotion></g>
     <g><rect x="-54" y="-12" width="108" height="24" rx="12" fill="#111a2e" stroke="#58A6FF" stroke-opacity="0.5"/><text x="0" y="5" text-anchor="middle">LangChain</text>
-      <animateMotion dur="18s" begin="-6s" repeatCount="indefinite"><mpath xlink:href="#orbitPath"/></animateMotion></g>
+      <animateMotion dur="18s" begin="-6s" repeatCount="indefinite"><mpath href="#orbitPath"/></animateMotion></g>
     <g><rect x="-42" y="-12" width="84" height="24" rx="12" fill="#111a2e" stroke="#b57cff" stroke-opacity="0.5"/><text x="0" y="5" text-anchor="middle">Next.js</text>
-      <animateMotion dur="18s" begin="-9s" repeatCount="indefinite"><mpath xlink:href="#orbitPath"/></animateMotion></g>
+      <animateMotion dur="18s" begin="-9s" repeatCount="indefinite"><mpath href="#orbitPath"/></animateMotion></g>
     <g><rect x="-40" y="-12" width="80" height="24" rx="12" fill="#111a2e" stroke="#58A6FF" stroke-opacity="0.5"/><text x="0" y="5" text-anchor="middle">Android</text>
-      <animateMotion dur="18s" begin="-12s" repeatCount="indefinite"><mpath xlink:href="#orbitPath"/></animateMotion></g>
+      <animateMotion dur="18s" begin="-12s" repeatCount="indefinite"><mpath href="#orbitPath"/></animateMotion></g>
     <g><rect x="-34" y="-12" width="68" height="24" rx="12" fill="#111a2e" stroke="#b57cff" stroke-opacity="0.5"/><text x="0" y="5" text-anchor="middle">GenAI</text>
-      <animateMotion dur="18s" begin="-15s" repeatCount="indefinite"><mpath xlink:href="#orbitPath"/></animateMotion></g>
+      <animateMotion dur="18s" begin="-15s" repeatCount="indefinite"><mpath href="#orbitPath"/></animateMotion></g>
   </g>
 
   <!-- terminal prompt -->

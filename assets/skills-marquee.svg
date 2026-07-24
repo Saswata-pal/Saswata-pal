@@ -33,7 +33,7 @@
           <rect x="810" y="0" width="130" height="34" rx="17" fill="#111a2e" stroke="#58A6FF" stroke-opacity="0.5"/><text x="875" y="22" text-anchor="middle">Firebase</text>
           <rect x="960" y="0" width="120" height="34" rx="17" fill="#111a2e" stroke="#b57cff" stroke-opacity="0.5"/><text x="1020" y="22" text-anchor="middle">OpenCV</text>
         </g>
-        <use xlink:href="#rowA" x="1120"/>
+        <use href="#rowA" x="1120"/>
         <animateTransform attributeName="transform" attributeType="XML" type="translate"
           from="0,0" to="-1120,0" dur="22s" repeatCount="indefinite"/>
       </g>
@@ -53,7 +53,7 @@
           <rect x="880" y="0" width="130" height="34" rx="17" fill="#111a2e" stroke="#58A6FF" stroke-opacity="0.5"/><text x="945" y="22" text-anchor="middle">YOLOv5</text>
           <rect x="1030" y="0" width="60" height="34" rx="17" fill="#111a2e" stroke="#b57cff" stroke-opacity="0.5"/><text x="1060" y="22" text-anchor="middle">Git</text>
         </g>
-        <use xlink:href="#rowB" x="-1120"/>
+        <use href="#rowB" x="-1120"/>
         <animateTransform attributeName="transform" attributeType="XML" type="translate"
           from="0,0" to="1120,0" dur="26s" repeatCount="indefinite"/>
       </g>
