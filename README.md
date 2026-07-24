@@ -1,10 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:2c5364,100:0f2027&height=200&section=header&text=Saswata%20Pal&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI%20%26%20ML%20Engineer%20%7C%20Android%20Developer%20%7C%20GenAI%20Innovator&descAlignY=58&descAlign=50" width="100%"/>
-
-<a href="https://github.com/Saswata-pal">
-  <img src="https://readme-typing-svg.demolab.com/?lines=Building+intelligent%2C+inclusive+AI+systems;GenAI+%7C+Multi-Agent+Systems+%7C+LLMs;On-device+AI+for+Android;Everything+is+Mathematics.&font=Fira+Code&center=true&width=600&height=40&color=58A6FF&vCenter=true&size=20&pause=1500"/>
-</a>
+<img src="./assets/banner.svg" width="100%" alt="Saswata Pal — animated intro"/>
 
 <p>
   <a href="https://www.linkedin.com/in/saswata-pal7"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
@@ -91,30 +87,7 @@ Hands-on experience with **Burp Suite, Nessus, Metasploit**, and network penetra
 ## Tech Stack
 
 <div align="center">
-
-**Languages**
-<br/>
-<img src="https://skillicons.dev/icons?i=py,java,cpp,r,js,xml" />
-
-**AI / ML**
-<br/>
-<img src="https://skillicons.dev/icons?i=tensorflow,pytorch,opencv" />
-`Hugging Face` `YOLOv5` `Gemini API` `TFLite` `RAG`
-
-**Frameworks & Backend**
-<br/>
-<img src="https://skillicons.dev/icons?i=nextjs,nodejs,firebase" />
-`LangChain` `CrewAI` `Streamlit`
-
-**Mobile**
-<br/>
-<img src="https://skillicons.dev/icons?i=androidstudio,kotlin,java" />
-
-**Automation & Tools**
-<br/>
-<img src="https://skillicons.dev/icons?i=git,github,gcp" />
-`Zapier` `n8n` `Ollama` `Prisma` `Matplotlib`
-
+<img src="./assets/skills-marquee.svg" width="100%" alt="scrolling tech stack"/>
 </div>
 
 <br/>
@@ -133,10 +106,7 @@ Hands-on experience with **Burp Suite, Nessus, Metasploit**, and network penetra
 <br/>
 
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:2c5364,100:0f2027&height=100&section=footer"/>
-
-*"Learning never exhausts the mind — it only sharpens it."*
-
+<img src="./assets/footer-wave.svg" width="100%" alt="footer"/>
 </div>
 
 <!---

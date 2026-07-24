@@ -1,0 +1,22 @@
+<svg width="1200" height="140" viewBox="0 0 1200 140" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="fg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f1830"/>
+      <stop offset="100%" stop-color="#181030"/>
+    </linearGradient>
+    <linearGradient id="waveGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#58A6FF" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#b57cff" stop-opacity="0.5"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="140" fill="url(#fg)"/>
+  <path fill="url(#waveGrad)">
+    <animate attributeName="d" dur="6s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1" values="
+      M0,80 C300,20 900,140 1200,80 L1200,140 L0,140 Z;
+      M0,80 C300,140 900,20 1200,80 L1200,140 L0,140 Z;
+      M0,80 C300,20 900,140 1200,80 L1200,140 L0,140 Z"/>
+  </path>
+  <text x="600" y="55" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="15" fill="#8b949e">
+    "Learning never exhausts the mind — it only sharpens it."
+  </text>
+</svg>
