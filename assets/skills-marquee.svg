@@ -1,0 +1,124 @@
+<svg width="1200" height="220" viewBox="0 0 1200 220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19"/>
+      <stop offset="100%" stop-color="#0f1830"/>
+    </linearGradient>
+    <linearGradient id="fadeMaskV" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"  stop-color="white" stop-opacity="0"/>
+      <stop offset="18%" stop-color="white" stop-opacity="1"/>
+      <stop offset="82%" stop-color="white" stop-opacity="1"/>
+      <stop offset="100%" stop-color="white" stop-opacity="0"/>
+    </linearGradient>
+    <mask id="edgeFadeV">
+      <rect width="1200" height="220" fill="url(#fadeMaskV)"/>
+    </mask>
+    <filter id="softGlow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="3.2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="220" fill="url(#bg2)"/>
+
+  <!-- thin column separators for structure -->
+  <g stroke="#1c2740" stroke-width="1">
+    <line x1="240" y1="0" x2="240" y2="220"/>
+    <line x1="480" y1="0" x2="480" y2="220"/>
+    <line x1="720" y1="0" x2="720" y2="220"/>
+    <line x1="960" y1="0" x2="960" y2="220"/>
+  </g>
+
+  <g mask="url(#edgeFadeV)" font-family="'JetBrains Mono', monospace" font-size="14" font-weight="600">
+
+    <!-- Column 1 — Core ML (blue) — moves UP -->
+    <g transform="translate(20,0)">
+      <g filter="url(#softGlow)">
+        <rect x="10" y="0"   width="180" height="38" rx="19" fill="#132038" stroke="#58A6FF" stroke-width="1.4"/><text x="100" y="24" text-anchor="middle" fill="#eaf2ff">Deep Learning</text>
+        <rect x="10" y="56"  width="180" height="38" rx="19" fill="#132038" stroke="#58A6FF" stroke-width="1.4"/><text x="100" y="80" text-anchor="middle" fill="#eaf2ff">PyTorch</text>
+        <rect x="10" y="112" width="180" height="38" rx="19" fill="#132038" stroke="#58A6FF" stroke-width="1.4"/><text x="100" y="136" text-anchor="middle" fill="#eaf2ff">TensorFlow</text>
+        <rect x="10" y="168" width="180" height="38" rx="19" fill="#132038" stroke="#58A6FF" stroke-width="1.4"/><text x="100" y="192" text-anchor="middle" fill="#eaf2ff">Statistics</text>
+        <rect x="10" y="224" width="180" height="38" rx="19" fill="#132038" stroke="#58A6FF" stroke-width="1.4"/><text x="100" y="248" text-anchor="middle" fill="#eaf2ff">Transformer</text>
+        <!-- duplicate set for seamless loop -->
+        <rect x="10" y="280" width="180" height="38" rx="19" fill="#132038" stroke="#58A6FF" stroke-width="1.4"/><text x="100" y="304" text-anchor="middle" fill="#eaf2ff">Deep Learning</text>
+        <rect x="10" y="336" width="180" height="38" rx="19" fill="#132038" stroke="#58A6FF" stroke-width="1.4"/><text x="100" y="360" text-anchor="middle" fill="#eaf2ff">PyTorch</text>
+        <rect x="10" y="392" width="180" height="38" rx="19" fill="#132038" stroke="#58A6FF" stroke-width="1.4"/><text x="100" y="416" text-anchor="middle" fill="#eaf2ff">TensorFlow</text>
+        <rect x="10" y="448" width="180" height="38" rx="19" fill="#132038" stroke="#58A6FF" stroke-width="1.4"/><text x="100" y="472" text-anchor="middle" fill="#eaf2ff">Statistics</text>
+        <rect x="10" y="504" width="180" height="38" rx="19" fill="#132038" stroke="#58A6FF" stroke-width="1.4"/><text x="100" y="528" text-anchor="middle" fill="#eaf2ff">Transformer</text>
+        <animateTransform attributeName="transform" type="translate" from="0,0" to="0,-280" dur="15s" repeatCount="indefinite"/>
+      </g>
+    </g>
+
+    <!-- Column 2 — LLM / GenAI (purple) — moves DOWN -->
+    <g transform="translate(260,0)">
+      <g filter="url(#softGlow)">
+        <rect x="10" y="0"   width="180" height="38" rx="19" fill="#241a38" stroke="#b57cff" stroke-width="1.4"/><text x="100" y="24" text-anchor="middle" fill="#f2eaff">LangChain</text>
+        <rect x="10" y="56"  width="180" height="38" rx="19" fill="#241a38" stroke="#b57cff" stroke-width="1.4"/><text x="100" y="80" text-anchor="middle" fill="#f2eaff">RAG</text>
+        <rect x="10" y="112" width="180" height="38" rx="19" fill="#241a38" stroke="#b57cff" stroke-width="1.4"/><text x="100" y="136" text-anchor="middle" fill="#f2eaff">Fine-tuning</text>
+        <rect x="10" y="168" width="180" height="38" rx="19" fill="#241a38" stroke="#b57cff" stroke-width="1.4"/><text x="100" y="192" text-anchor="middle" fill="#f2eaff">HuggingFace</text>
+        <rect x="10" y="224" width="180" height="38" rx="19" fill="#241a38" stroke="#b57cff" stroke-width="1.4"/><text x="100" y="248" text-anchor="middle" fill="#f2eaff">Ollama</text>
+        <rect x="10" y="280" width="180" height="38" rx="19" fill="#241a38" stroke="#b57cff" stroke-width="1.4"/><text x="100" y="304" text-anchor="middle" fill="#f2eaff">LangChain</text>
+        <rect x="10" y="336" width="180" height="38" rx="19" fill="#241a38" stroke="#b57cff" stroke-width="1.4"/><text x="100" y="360" text-anchor="middle" fill="#f2eaff">RAG</text>
+        <rect x="10" y="392" width="180" height="38" rx="19" fill="#241a38" stroke="#b57cff" stroke-width="1.4"/><text x="100" y="416" text-anchor="middle" fill="#f2eaff">Fine-tuning</text>
+        <rect x="10" y="448" width="180" height="38" rx="19" fill="#241a38" stroke="#b57cff" stroke-width="1.4"/><text x="100" y="472" text-anchor="middle" fill="#f2eaff">HuggingFace</text>
+        <rect x="10" y="504" width="180" height="38" rx="19" fill="#241a38" stroke="#b57cff" stroke-width="1.4"/><text x="100" y="528" text-anchor="middle" fill="#f2eaff">Ollama</text>
+        <animateTransform attributeName="transform" type="translate" from="0,-280" to="0,0" dur="17s" repeatCount="indefinite"/>
+      </g>
+    </g>
+
+    <!-- Column 3 — Applied CV (green) — moves UP -->
+    <g transform="translate(500,0)">
+      <g filter="url(#softGlow)">
+        <rect x="10" y="0"   width="180" height="38" rx="19" fill="#0f1f14" stroke="#3fb950" stroke-width="1.4"/><text x="100" y="24" text-anchor="middle" fill="#eaffec">YOLOv8</text>
+        <rect x="10" y="56"  width="180" height="38" rx="19" fill="#0f1f14" stroke="#3fb950" stroke-width="1.4"/><text x="100" y="80" text-anchor="middle" fill="#eaffec">OpenCV</text>
+        <rect x="10" y="112" width="180" height="38" rx="19" fill="#0f1f14" stroke="#3fb950" stroke-width="1.4"/><text x="100" y="136" text-anchor="middle" fill="#eaffec">Computer Vision</text>
+        <rect x="10" y="168" width="180" height="38" rx="19" fill="#0f1f14" stroke="#3fb950" stroke-width="1.4"/><text x="100" y="192" text-anchor="middle" fill="#eaffec">ONNX</text>
+        <rect x="10" y="224" width="180" height="38" rx="19" fill="#0f1f14" stroke="#3fb950" stroke-width="1.4"/><text x="100" y="248" text-anchor="middle" fill="#eaffec">Machine Learning</text>
+        <rect x="10" y="280" width="180" height="38" rx="19" fill="#0f1f14" stroke="#3fb950" stroke-width="1.4"/><text x="100" y="304" text-anchor="middle" fill="#eaffec">YOLOv8</text>
+        <rect x="10" y="336" width="180" height="38" rx="19" fill="#0f1f14" stroke="#3fb950" stroke-width="1.4"/><text x="100" y="360" text-anchor="middle" fill="#eaffec">OpenCV</text>
+        <rect x="10" y="392" width="180" height="38" rx="19" fill="#0f1f14" stroke="#3fb950" stroke-width="1.4"/><text x="100" y="416" text-anchor="middle" fill="#eaffec">Computer Vision</text>
+        <rect x="10" y="448" width="180" height="38" rx="19" fill="#0f1f14" stroke="#3fb950" stroke-width="1.4"/><text x="100" y="472" text-anchor="middle" fill="#eaffec">ONNX</text>
+        <rect x="10" y="504" width="180" height="38" rx="19" fill="#0f1f14" stroke="#3fb950" stroke-width="1.4"/><text x="100" y="528" text-anchor="middle" fill="#eaffec">Machine Learning</text>
+        <animateTransform attributeName="transform" type="translate" from="0,0" to="0,-280" dur="14s" repeatCount="indefinite"/>
+      </g>
+    </g>
+
+    <!-- Column 4 — Dev / Mobile (orange) — moves DOWN -->
+    <g transform="translate(740,0)">
+      <g filter="url(#softGlow)">
+        <rect x="10" y="0"   width="180" height="38" rx="19" fill="#2a1c0e" stroke="#f0883e" stroke-width="1.4"/><text x="100" y="24" text-anchor="middle" fill="#fff0e2">Android Dev</text>
+        <rect x="10" y="56"  width="180" height="38" rx="19" fill="#2a1c0e" stroke="#f0883e" stroke-width="1.4"/><text x="100" y="80" text-anchor="middle" fill="#fff0e2">Java</text>
+        <rect x="10" y="112" width="180" height="38" rx="19" fill="#2a1c0e" stroke="#f0883e" stroke-width="1.4"/><text x="100" y="136" text-anchor="middle" fill="#fff0e2">Next.js</text>
+        <rect x="10" y="168" width="180" height="38" rx="19" fill="#2a1c0e" stroke="#f0883e" stroke-width="1.4"/><text x="100" y="192" text-anchor="middle" fill="#fff0e2">Firebase</text>
+        <rect x="10" y="224" width="180" height="38" rx="19" fill="#2a1c0e" stroke="#f0883e" stroke-width="1.4"/><text x="100" y="248" text-anchor="middle" fill="#fff0e2">FastAPI</text>
+        <rect x="10" y="280" width="180" height="38" rx="19" fill="#2a1c0e" stroke="#f0883e" stroke-width="1.4"/><text x="100" y="304" text-anchor="middle" fill="#fff0e2">Android Dev</text>
+        <rect x="10" y="336" width="180" height="38" rx="19" fill="#2a1c0e" stroke="#f0883e" stroke-width="1.4"/><text x="100" y="360" text-anchor="middle" fill="#fff0e2">Java</text>
+        <rect x="10" y="392" width="180" height="38" rx="19" fill="#2a1c0e" stroke="#f0883e" stroke-width="1.4"/><text x="100" y="416" text-anchor="middle" fill="#fff0e2">Next.js</text>
+        <rect x="10" y="448" width="180" height="38" rx="19" fill="#2a1c0e" stroke="#f0883e" stroke-width="1.4"/><text x="100" y="472" text-anchor="middle" fill="#fff0e2">Firebase</text>
+        <rect x="10" y="504" width="180" height="38" rx="19" fill="#2a1c0e" stroke="#f0883e" stroke-width="1.4"/><text x="100" y="528" text-anchor="middle" fill="#fff0e2">FastAPI</text>
+        <animateTransform attributeName="transform" type="translate" from="0,-280" to="0,0" dur="16s" repeatCount="indefinite"/>
+      </g>
+    </g>
+
+    <!-- Column 5 — Cloud / Tools (teal) — moves UP -->
+    <g transform="translate(980,0)">
+      <g filter="url(#softGlow)">
+        <rect x="10" y="0"   width="180" height="38" rx="19" fill="#0e2326" stroke="#39c5cf" stroke-width="1.4"/><text x="100" y="24" text-anchor="middle" fill="#e3fbfd">Docker</text>
+        <rect x="10" y="56"  width="180" height="38" rx="19" fill="#0e2326" stroke="#39c5cf" stroke-width="1.4"/><text x="100" y="80" text-anchor="middle" fill="#e3fbfd">GCP</text>
+        <rect x="10" y="112" width="180" height="38" rx="19" fill="#0e2326" stroke="#39c5cf" stroke-width="1.4"/><text x="100" y="136" text-anchor="middle" fill="#e3fbfd">AWS</text>
+        <rect x="10" y="168" width="180" height="38" rx="19" fill="#0e2326" stroke="#39c5cf" stroke-width="1.4"/><text x="100" y="192" text-anchor="middle" fill="#e3fbfd">Automation</text>
+        <rect x="10" y="224" width="180" height="38" rx="19" fill="#0e2326" stroke="#39c5cf" stroke-width="1.4"/><text x="100" y="248" text-anchor="middle" fill="#e3fbfd">Git</text>
+        <rect x="10" y="280" width="180" height="38" rx="19" fill="#0e2326" stroke="#39c5cf" stroke-width="1.4"/><text x="100" y="304" text-anchor="middle" fill="#e3fbfd">Docker</text>
+        <rect x="10" y="336" width="180" height="38" rx="19" fill="#0e2326" stroke="#39c5cf" stroke-width="1.4"/><text x="100" y="360" text-anchor="middle" fill="#e3fbfd">GCP</text>
+        <rect x="10" y="392" width="180" height="38" rx="19" fill="#0e2326" stroke="#39c5cf" stroke-width="1.4"/><text x="100" y="416" text-anchor="middle" fill="#e3fbfd">AWS</text>
+        <rect x="10" y="448" width="180" height="38" rx="19" fill="#0e2326" stroke="#39c5cf" stroke-width="1.4"/><text x="100" y="472" text-anchor="middle" fill="#e3fbfd">Automation</text>
+        <rect x="10" y="504" width="180" height="38" rx="19" fill="#0e2326" stroke="#39c5cf" stroke-width="1.4"/><text x="100" y="528" text-anchor="middle" fill="#e3fbfd">Git</text>
+        <animateTransform attributeName="transform" type="translate" from="0,0" to="0,-280" dur="18s" repeatCount="indefinite"/>
+      </g>
+    </g>
+
+  </g>
+</svg>
