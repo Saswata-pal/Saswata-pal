@@ -107,7 +107,7 @@ Hands-on experience with **Burp Suite, Nessus, Metasploit**, and network penetra
 ## GitHub Stats
 
 <div align="center">
-<img src="https://helio-github-stats.vercel.app/api?username=Saswata-pal&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="165"/>
+<img src="https://github-readme-stats-fast.vercel.app/api?username=Saswata-pal&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="165"/>
 <img src="https://github-readme-streak-stats-phi.vercel.app/?user=Saswata-pal&theme=tokyonight&hide_border=true&cache_seconds=2" height="165"/>
 </div>
 
